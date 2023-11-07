@@ -1,27 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <header>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Scored and Timed Quiz </title>
+        <title>Timed Quiz </title>
         <link rel="stylesheet" href="style.css">
-    </head>
+    
+    </header>
 
     <body>
-       <div class="Question">
-        
-       </div> 
-       <div class="Answers">
+        <h1>Quiz 1</h1>
+        <h2>Note: You have 2 minutes to complete this quiz, when the clock runs out the quiz will automatically submit</h2>
+        <div id="Timer"></div>
+        <form>
+            <input studentName="First and Last Name">
+          </form> 
+        <div id="quiz-container">
             <ul>
-                <option value="A"></option>
-                <option value="B"></option>
-                <option value="C"></option>
-                <option value="D"></option>
+                <li id="Question1">Who is the President of the United States?
+                    <ul class = "Options">
+                        <li>Trump</li>
+                        <li>Biden</li>
+                        <li>Obama</li>
+                    </ul>
+                </li>
+
+                <li id="Question2">What part of the cell acts as the cell's UPS?
+                    <ul class = "Options">
+                        <li>Golgi Apparatus</li>
+                        <li>Lysosomes</li>
+                        <li>Mitochondria</li>
+                    </ul>
+                </li>      
+                <li id="Question3">What part of the cell acts as the cells Garbage recycle?
+                    <ul class = "Options">
+                        <li>Lysosomes</li>
+                        <li>Nucleus</li>
+                        <li>Nucleorous</li>
+                    </ul>
+                </li>
+                <li id="Question4">What season comes after Fall?
+                    <ul class = "Options">
+                        <li>Spring</li>
+                        <li>Autumn</li>
+                        <li>Snow</li>
+                    </ul>
+                </li>
+                <li id="Question5">What does the term "Hematuria" mean?
+                    <ul class = "Options">
+                        <li>frequent Urination at night</li>
+                        <li>Normal urine</li>
+                        <li>Blood in urine</li>
+                    </ul>
+                </li>
             </ul>
-       </div>
+        </div>
+
+        <button id="submit">Submit</button>
+
     </body>
     <footer>
         <link rel="script" href="./script.js">
     </footer>
 </html>
+
+
+
+
+
+

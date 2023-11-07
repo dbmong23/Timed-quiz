@@ -1,0 +1,37 @@
+html{
+    display: flex; align-items: center; justify-content: center; justify-items: center;
+}
+body { 
+
+}
+
+h1, h2{ 
+    margin: 5px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center; background-color: rgb(199, 199, 255);
+
+}
+#quiz-container{ display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#questions{
+
+}
+.options{ 
+    padding:20px; margin:1px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#submit { color: black;
+    margin: 0; padding:5px; font-family: 'Times New Roman', Times, serif; font-size: medium;
+    
+
+}
+footer,header{
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    max-width: 100%; max-height: 100%; 
+    background-color: rgb(197, 191, 191);
+}
